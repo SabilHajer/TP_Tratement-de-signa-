@@ -2,6 +2,8 @@
 
 # Introduction 
 
+Ce  TP de traitement d'un signal ECG vise à nous  familiariser avec les différentes techniques utilisées pour analyser les signaux ECG. Nous pouvons  s'attendre à acquérir des compétences en matière d'acquisition de données, de filtrage, de détection d'anomalies et d'interprétation des résultats. Ce TP peut inclure des activités pratiques, telles que l'utilisation de logiciels spécialisés pour traiter les signaux ECG, ainsi que la lecture et l'analyse de publications scientifiques sur le sujet. L'objectif final est de développer une compréhension approfondie du traitement des signaux ECG et de la manière dont il peut être utilisé pour améliorer la santé cardiaque.
+
 # Suppression du bruit provoqué par les mouvements du corps
 
 ## Question 1 : L e sauvegardement et le chargement du fichier ECG 
@@ -137,3 +139,6 @@
 
 
 # conclusion 
+
+ En conclusion, le traitement d'un signal ECG est une étape cruciale pour comprendre l'état de santé cardiaque d'une personne. En suivant un TP sur ce sujet, Nous avons pu  développer des compétences pratiques en matière d'acquisition, de filtrage, de détection d'anomalies et d'interprétation des signaux ECG. L'objectif final est de fournir une image claire de l'état de santé cardiaque pour aider à diagnostiquer et à traiter des conditions cardiaques. Grâce à ces connaissances, Noua avons pu  contribuer à améliorer la prise en charge des patients et à promouvoir une vie plus saine.
+ 
