@@ -46,7 +46,8 @@
 
 ![image](https://user-images.githubusercontent.com/106478263/216653892-f05dbaef-d60f-4307-b576-085b8cf9ca97.png)
 
-### Appilcation du filtrage 1
+
+## Question 4  :   Appilcation du filtrage 1
 
 ##### code 
 
@@ -61,3 +62,78 @@
 
 # "Suppression des interférences des lignes électriques 50Hz" 
 
+## Question 5  :   Appilcation du filtrage Notch idéal
+
+#### generation du filtre code 
+
+![image](https://user-images.githubusercontent.com/106478263/216664592-b46f0406-4854-46a4-a5d3-e3e7e0eb1815.png)
+
+#### Calcule de TFD  code 
+
+![image](https://user-images.githubusercontent.com/106478263/216664794-8e2228e4-75fa-4782-bc47-ae050c6be8e6.png)
+
+### le spectre d'amplitude de ecg1
+
+![image](https://user-images.githubusercontent.com/106478263/216664986-6ba74617-bc33-4347-8148-efdc2302548f.png)
+
+### output 
+
+![image](https://user-images.githubusercontent.com/106478263/216665132-f21e7263-85b4-49c2-a3a8-2981f8c383d7.png)
+
+#### application du filtre 
+
+![image](https://user-images.githubusercontent.com/106478263/216665275-1b297b3c-4af9-4eba-a831-e014a7d2f6c0.png)
+
+## Question 6  :   le signal filtree ecg2
+
+### code 
+![image](https://user-images.githubusercontent.com/106478263/216665473-71af3ce5-2a02-4766-aca0-f4bd8ee11a98.png)
+
+### output 
+
+![image](https://user-images.githubusercontent.com/106478263/216665604-755b2517-fa73-4497-a7f0-89bcd16e5084.png)
+
+
+# "Amélioration du rapport signal sur bruit"
+
+## Question 7 :   generation d'un filtre pass-bass 
+
+### calcule de TFD de ecg2 et son spectre d'amplitude 
+##### code 
+![image](https://user-images.githubusercontent.com/106478263/216666605-8275a003-ca30-478c-a267-ba81448c0a0c.png)
+
+##### output 
+![image](https://user-images.githubusercontent.com/106478263/216666524-d96913f4-f58f-4d27-8076-726d3dec0045.png)
+
+###  Conception du filtre 
+![image](https://user-images.githubusercontent.com/106478263/216667069-3bd3a3fc-c7a7-4b89-b8fd-525412d5e350.png)
+
+## Question 8  :   le signal filtrer 
+#### application du filtre 
+
+#### code 
+![image](https://user-images.githubusercontent.com/106478263/216667425-8453c0c5-fca1-45b4-b25a-0bb0a8c86b77.png)
+
+![image](https://user-images.githubusercontent.com/106478263/216667521-46be139a-01d1-43e7-ae85-acf6d8cbc03c.png)
+
+> nous pouvons voir qu'un peut  bien filtrer le signal tout en gardent que les informations utiles .  
+
+### difference entre ecg et ecg3 
+##### code 
+![image](https://user-images.githubusercontent.com/106478263/216668419-d27f439d-f326-428a-8983-9fb5e3827630.png)
+##### output 
+
+![image](https://user-images.githubusercontent.com/106478263/216668696-b691d575-5751-4b2a-9907-25de397d6d01.png)
+
+# "Identification de la fréquence cardiaque avec la fonction d’autocorrélation "
+
+
+
+## Question 9 :     calculer d’autocorrélation du signal ECG
+
+![image](https://user-images.githubusercontent.com/106478263/216668959-e2694d06-4e95-49b3-888c-d42a782288a8.png)
+
+![image](https://user-images.githubusercontent.com/106478263/216669083-98928846-5a5b-4ba1-85fe-386af6a97411.png)
+
+
+# conclusion 
