@@ -3,7 +3,7 @@
 
 
 # Introduction 
-
+Ce TP vise à  nous familiariser avec les techniques de filtrage utilisées pour traiter les signaux analogiques. Nous pouvons  s'attendre à apprendre les différents types de filtres analogiques, tels que les filtres passe-bas, passe-haut, passe-bande et arrête-bande. Ils peuvent également découvrir comment concevoir et tester ces filtres à l'aide de différents outils et matériels, tels que les simulateurs de circuits, les oscilloscopes et les générateurs de signaux. L'objectif final est de comprendre comment les filtres analogiques peuvent être utilisés pour améliorer la qualité des signaux en éliminant le bruit et en sélectionnant les fréquences souhaitées. Nous serons en mesure de concevoir et de tester des filtres analogiques pour des applications pratiques dans divers domaines tels que la communication, la médecine et la robotique.
 
 # Filtrage et diagramme de Bode
 
@@ -201,4 +201,5 @@
 
 #  conclusion 
 
+ En conclusion, le filtrage analogique est une technique clé pour traiter les signaux analogiques et améliorer leur qualité. Ce TP nous a  permet de développer nos  compétences en matière de conception et de test de filtres analogiques.Nous avons pu  comprendre les différents types de filtres et comment ils peuvent être utilisés pour éliminer le bruit et sélectionner les fréquences souhaitées. En comprenant les principes du filtrage analogique, Nous avons pu  contribuer à améliorer la qualité des signaux pour des applications pratiques dans divers domaines. En fin de compte, cette compréhension aide à développer des systèmes plus efficaces et fiables pour les utilisateurs finaux.
 
