@@ -4,6 +4,7 @@
 
 # Introduction 
 
+
 # Filtrage et diagramme de Bode
 
 ## Question 1 : Definition du signal x(t)
@@ -109,21 +110,95 @@
 
 ## code 
 
-![image](https://user-images.githubusercontent.com/106478263/216677841-e62a2c16-0418-40d7-83a5-e791470d42ad.png)
+![image](https://user-images.githubusercontent.com/106478263/216678867-664182ba-be14-4dba-8f2f-535addde58f6.png)
 
 
 ## output H1
+![image](https://user-images.githubusercontent.com/106478263/216679125-07402334-44cc-41ae-82ee-f1abd2b0c016.png)
 
 ## output H2
+![image](https://user-images.githubusercontent.com/106478263/216679308-b04c6fc7-7192-4d68-88b5-dd6f467cea0b.png)
+
 ## output H3 
+![image](https://user-images.githubusercontent.com/106478263/216679340-50512729-3ce4-45fd-984c-0b4e29093743.png)
 
-## Question 6 : application de filtre avec differentes frequences de coupures .
+>  on peut remarquer que  le signal filtre de chaque H(i) obtenu  apres l'application des caracterstiques de chaque filtre . chaqu'un   de filtre  attenue une certaines frequences avec un certain gain . la chose qu'on doit prendre est lors de choix de filtre on doit choisir celle  qui garde les frequences  utiles et attunue les autres indesirables .
+
+## Question 7 : frequence de coupure choisit .
+
+> J'ai choisit la frequence  fc = 150 
+
+## Question 8 :  le signal obrtenu 
+![image](https://user-images.githubusercontent.com/106478263/216680991-e4a0281a-771d-4dd8-900c-f43bcae99396.png)
+
+
+# Dé-bruitage d'un signal sonore
+
+## Question 1 : Proposer une méthode pour supprimer ce bruit sur le signal
+
+> pour pouvoir supprimer le bruit o doit appliquer un filtre analogique 
+
+## Question 2 : Mettez-la en oeuvre. Quelle influence à le paramètre K du filtre que vous avez utilisé 
+
+> en premier lieu on dot telecharger le ficher et puis definit les variables a utiluse  
+
+### code 
+
+![image](https://user-images.githubusercontent.com/106478263/216681821-403c4960-29c7-4ed8-af5f-f670d2d6c2ff.png)
+
+> maitenant pour pouvoir analyser le signal on doit tracer son spectre 
+
+### code 
+
+
+![image](https://user-images.githubusercontent.com/106478263/216682432-89a2480a-f25c-480b-8688-79a1d0c073a6.png)
 
 
 
 
+### output 
+![image](https://user-images.githubusercontent.com/106478263/216682384-991c4299-1a58-47b9-89f3-456959ee30db.png)
+
+
+>  voici les parametres choisit pour le filtre 
+
+## code 
+
+![image](https://user-images.githubusercontent.com/106478263/216682669-d01953dd-0692-41ef-93d9-2960cb4ce1d7.png)
+
+> calculons la transmitance complexe  
+
+![image](https://user-images.githubusercontent.com/106478263/216682794-516d13bc-1089-4fc5-80df-107eb2a1e984.png)
+
+
+> pour bien voir est ce que le filtre est bien ou non on doit voir son diarame de bode 
+
+### code 
+
+![image](https://user-images.githubusercontent.com/106478263/216683563-f7f733d0-37b1-49ca-ba15-8ad4dbe014bd.png)
+
+
+### output
+
+![image](https://user-images.githubusercontent.com/106478263/216683617-00a9fe6b-8e04-48bb-8b77-64f41eefb90f.png)
 
 
 
+> maitenent on va appliquer le filtre 
+
+# code 
+
+![image](https://user-images.githubusercontent.com/106478263/216683786-de35680b-e3cf-4c2a-aa15-b3d9d270cc9f.png)
+
+## Question 4 : Quelles remarques pouvez-vous faire notamment sur la sonorité du signal fina 
+
+
+![image](https://user-images.githubusercontent.com/106478263/216684071-2bf67a52-d4cb-4c98-b603-f4286dbf11d7.png)
+
+
+> on a pu attenuer le siganl mais au meme temps on a eu une attenuation au niveau de volume de signal sonor 
+
+
+#  conclusion 
 
 
